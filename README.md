@@ -329,15 +329,6 @@ For questions or issues, please refer to the documentation files:
 - **Repository**: [GitHub - Sergio799/SamrAI](https://github.com/Sergio799/SamrAI)
 - **Deployment**: Automatic on push to `main` branch
 
-### Deploy Your Own
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Sergio799/SamrAI)
-
-1. Click the button above
-2. Add environment variables in Vercel dashboard
-3. Deploy!
-
----
-
 **Built with ❤️ for democratizing professional investment analysis**
 
 🚀 **SamrAI - Intelligent investing through data-driven AI insights**
