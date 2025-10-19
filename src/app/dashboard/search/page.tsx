@@ -49,6 +49,7 @@ export default function WatchlistPage() {
         shares: 10, // Default shares
         price: info.price,
         price_open: info.previousClose,
+        purchase_price: info.price, // Set purchase price to current price
         value: info.price * 10,
         daily_change_percent: ((info.price - info.previousClose) / info.previousClose) * 100,
         type: info.type === 'CRYPTOCURRENCY' ? 'Crypto' : info.type === 'ETF' ? 'ETF' : 'Stock',

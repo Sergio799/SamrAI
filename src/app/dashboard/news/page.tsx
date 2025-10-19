@@ -79,12 +79,12 @@ export default function NewsPage() {
 
   return (
     <div>
-      <div className="flex items-center gap-4 mb-6">
-        <Newspaper className="w-8 h-8 text-primary" />
-        <h1 className="text-3xl font-bold text-white">Market News</h1>
+      <div className="flex items-center gap-3 mb-4 md:mb-6">
+        <Newspaper className="w-6 h-6 md:w-8 md:h-8 text-primary" />
+        <h1 className="text-2xl md:text-3xl font-bold text-white">Market News</h1>
       </div>
 
-      <p className="text-muted-foreground mb-6 max-w-2xl">
+      <p className="text-sm md:text-base text-muted-foreground mb-4 md:mb-6 max-w-2xl">
         Stay updated with the latest news affecting your portfolio.
         News is filtered based on your current holdings and updated every 5 minutes.
       </p>

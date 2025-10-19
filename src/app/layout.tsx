@@ -8,17 +8,25 @@ import { ClerkProvider } from '@clerk/nextjs'
 const fontSpaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   variable: '--font-space-grotesk',
+  display: 'swap',
 });
 
 const fontLora = Lora({
   subsets: ['latin'],
   variable: '--font-lora',
+  display: 'swap',
 });
 
 
 export const metadata: Metadata = {
   title: "SamrAI",
   description: "Intelligent Investment Platform",
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 };
 
 export default function RootLayout({
@@ -28,12 +36,12 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-        <html lang="en" className="dark">
+      <html lang="en" className="dark">
         <body className={cn("antialiased", fontSpaceGrotesk.variable, fontLora.variable)}>
-            {children}
-            <Toaster />
+          {children}
+          <Toaster />
         </body>
-        </html>
+      </html>
     </ClerkProvider>
   );
 }
