@@ -2,6 +2,12 @@
 
 > Professional investment analysis powered by AI and quantitative research
 
+## 🌐 Live Demo
+
+**[View Live Application](https://samr-ai-ct1o-ijsxpth16-sergios-projects-83a436f2.vercel.app/)**
+
+Deployed on Vercel with continuous deployment from GitHub.
+
 ## Overview
 
 SamrAI is an intelligent investment platform that combines real-time market data with research-grade quantitative analysis and AI-powered insights. Built for retail investors who want institutional-quality analysis without the institutional price tag.
@@ -314,6 +320,21 @@ For questions or issues, please refer to the documentation files:
 - `DEMO_SCRIPT.md` - Presentation script
 - `README_QUANT.md` - Quantitative analysis details
 - `UTILITY_MODULES.md` - Utility modules reference
+
+## 🚀 Deployment
+
+### Live Application
+- **Production URL**: [https://samr-ai-ct1o-ijsxpth16-sergios-projects-83a436f2.vercel.app/](https://samr-ai-ct1o-ijsxpth16-sergios-projects-83a436f2.vercel.app/)
+- **Platform**: Vercel
+- **Repository**: [GitHub - Sergio799/SamrAI](https://github.com/Sergio799/SamrAI)
+- **Deployment**: Automatic on push to `main` branch
+
+### Deploy Your Own
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Sergio799/SamrAI)
+
+1. Click the button above
+2. Add environment variables in Vercel dashboard
+3. Deploy!
 
 ---
 
