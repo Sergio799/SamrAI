@@ -1,6 +1,6 @@
 # 🚀 SamrAI - AI-Powered Investment Platform
 
-> Professional investment analysis powered by AI and quantitative research
+> Professional investment analysis powered by AI and quantitative research...
 
 ## 🌐 Live Demo
 
