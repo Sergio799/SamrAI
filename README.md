@@ -4,7 +4,7 @@
 
 ## 🌐 Live Demo
 
-**[View Live Application](https://samr-ai-ct1o-ijsxpth16-sergios-projects-83a436f2.vercel.app/)**
+**[View Live Application](https://samr-ai-ct1o.vercel.app/)**
 
 Deployed on Vercel with continuous deployment from GitHub.
 
